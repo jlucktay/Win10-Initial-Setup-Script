@@ -13,7 +13,7 @@ $tweaks = @(
 	### Privacy Tweaks ###
 	"DisableTelemetry",             # "EnableTelemetry",
 	"DisableWiFiSense",             # "EnableWiFiSense",
-	# "DisableSmartScreen",         # "EnableSmartScreen",
+    "EnableSmartScreen",            # "DisableSmartScreen",
 	"DisableWebSearch",             # "EnableWebSearch",
 	"DisableAppSuggestions",        # "EnableAppSuggestions",
 	"DisableActivityHistory",       # "EnableActivityHistory",
@@ -26,7 +26,7 @@ $tweaks = @(
 	"DisableWebLangList",           # "EnableWebLangList",
 	"DisableCortana",               # "EnableCortana",
 	"DisableErrorReporting",        # "EnableErrorReporting",
-	# "SetP2PUpdateLocal",          # "SetP2PUpdateInternet",
+    "SetP2PUpdateInternet",         # "SetP2PUpdateLocal",
 	"DisableDiagTrack",             # "EnableDiagTrack",
 	"DisableWAPPush",               # "EnableWAPPush",
 
@@ -37,7 +37,7 @@ $tweaks = @(
 	# "DisableSMB1",                # "EnableSMB1",
 	# "DisableSMBServer",           # "EnableSMBServer",
 	# "DisableLLMNR",               # "EnableLLMNR",
-	"SetCurrentNetworkPrivate",     # "SetCurrentNetworkPublic",
+    # "SetCurrentNetworkPrivate",   # "SetCurrentNetworkPublic",
 	# "SetUnknownNetworksPrivate",  # "SetUnknownNetworksPublic",
 	# "DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
 	# "EnableCtrldFolderAccess",    # "DisableCtrldFolderAccess",
@@ -45,7 +45,7 @@ $tweaks = @(
 	# "DisableDefender",            # "EnableDefender",
 	# "DisableDefenderCloud",       # "EnableDefenderCloud",
 	"EnableF8BootMenu",             # "DisableF8BootMenu",
-	"SetDEPOptOut",                 # "SetDEPOptIn",
+    "SetDEPOptIn",                  # "SetDEPOptOut",
 	# "EnableCIMemoryIntegrity",    # "DisableCIMemoryIntegrity",
 	"DisableScriptHost",            # "EnableScriptHost",
 	"EnableDotNetStrongCrypto",     # "DisableDotNetStrongCrypto",
@@ -71,6 +71,7 @@ $tweaks = @(
 	# "DisableSleepTimeout",        # "EnableSleepTimeout",
 	# "DisableFastStartup",         # "EnableFastStartup",
 
+<#
 	### UI Tweaks ###
 	"DisableActionCenter",          # "EnableActionCenter",
 	"HideAccountProtectionWarn",    # "ShowAccountProtectionWarn",
@@ -154,6 +155,7 @@ $tweaks = @(
 	### Unpinning ###
 	# "UnpinStartMenuTiles",
 	# "UnpinTaskbarIcons",
+#>
 
 	### Auxiliary Functions ###
 	"WaitForKey",
